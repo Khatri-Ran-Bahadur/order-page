@@ -1,0 +1,9 @@
+
+# BEGIN WordPress
+
+# END WordPress
+#
+#RewriteEngine On 
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteCond %{REQUEST_URI} order 
+# RewriteRule ^(.*)$ https://xxxx/order/$1 [R,L]

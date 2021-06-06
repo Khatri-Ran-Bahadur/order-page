@@ -1,0 +1,61 @@
+#vas-banner-container {
+	position: relative;
+	margin-top: 0;
+}
+#vas-banner-ab {
+	position: absolute;
+	left: 63px;
+	top: -20px;
+	width: 29px;
+	height: 20px;
+	background: url('/images/vas-banner/uh.png') left top no-repeat;
+}
+#vas-banner .add {
+    display: block;
+	float: right;
+	width: 117px;
+	height: 18px;
+	background: url('/images/vas-banner/buttons.png') no-repeat 0 0;
+	text-decoration: none;
+    text-indent: -9999px;
+}
+#vas-banner {
+	padding: 15px 15px 9px 170px;
+	height: 111px;
+	width: 585px;
+
+	_height: 135px;
+	_width: 770px;
+	background: transparent url('/images/vas-banner/bg.jpg') left top no-repeat;
+}
+#vas-banner table td {
+	color: #5743A7;
+	width: 100%;
+	font: normal 12px Arial;
+}
+#vas-banner label {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#vas-banner .add.selected{
+	background-position: left bottom;
+}
+
+#vas-banner #vip_package.add .text,
+#vas-banner #vip_package.add .price {
+	color: #FFBD12;
+}
+#vas-banner .price,
+#vas-banner .field_hint {
+	font-weight: bold;
+}
+#vas-banner .hl {
+	font-weight: bold;
+	color: #D71181;
+}
+#vas-banner .field_hint {
+	background: none;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+}

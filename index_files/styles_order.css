@@ -1,0 +1,11 @@
+.get-style-to-review-order{}
+#vas-banner{width: 505px !important;}
+#vas-banner .add {
+	background: url('/images/vas-banner/buttons.jpg') no-repeat 50% 0 !important;
+	width:100px !important;
+}
+body:first-of-type #vas-banner .add {width: 90px !important;}
+body:first-of-type #vas-banner label{font-size:11px !important; font-weight: normal !important;}
+#vas-banner .selected{	
+    background: url('/images/vas-banner/buttons.jpg') no-repeat 50% 100% !important;    
+}

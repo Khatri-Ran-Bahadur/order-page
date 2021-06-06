@@ -1,0 +1,493 @@
+#order_form {
+  border: 1px solid #aeae8f;
+}
+#order_form ul.prefflist,
+#order_form ul.radiolist {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+}
+#order_form ul.prefflist li,
+#order_form ul.radiolist li {
+  list-style: none;
+  background: none;
+  list-style-image: none;
+}
+
+div.validation_error {
+  color: #900;
+  display: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1;
+}
+
+.w200 {
+  width: 200px;
+  margin-right: 10px;
+}
+
+input.validation_error,
+select.validation_error,
+textarea.validation_error {
+}
+#order_form table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#order_form td {
+  vertical-align: top;
+}
+#order_form td.label {
+  width: 250px !important;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.prefflist img.add,
+.prefflist img.delete {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+input.simpletext {
+  border: none;
+  background: transparent;
+}
+.brdata {
+  clear: both;
+}
+
+#firstname,
+#lastname,
+#name,
+#email,
+#topic,
+#doctype,
+#wrlevel,
+#details,
+#order_category,
+#ask_question,
+#name_old,
+#email_old,
+#topic_old,
+#doctype_old,
+#wrlevel_old,
+#details_old,
+#order_category_old,
+#ask_question_old,
+#numpages,
+#retype_email,
+#password {
+  width: 300px;
+}
+
+#urgency,
+#style,
+#o_interval,
+#langstyle,
+#urgency_old,
+#style_old,
+#o_interval_old,
+#langstyle_old {
+  width: 150px;
+}
+
+#curr,
+#numberOfSources,
+#curr_old,
+#numberOfSources_old {
+  width: 5em;
+}
+
+.label {
+  width: 250px;
+}
+
+.previous_value {
+  color: red;
+}
+
+.previous_value_bold {
+  font-weight: bold;
+}
+
+.clue-right {
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.clue-left {
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+
+#cluetip-outer {
+  border: 1px solid #555;
+  position: relative;
+  box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+}
+
+h3#cluetip-title {
+  margin: 0px;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #f6ffdc;
+  color: #000;
+}
+
+#cluetip-close {
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+#cluetip-close img {
+  border: 0;
+}
+
+.preview_comment {
+  font-style: italic;
+}
+
+#submit_order_form {
+  cursor: pointer;
+}
+#total,
+#value_total {
+  font-weight: bold;
+}
+#discount_span {
+  color: green;
+  font-weight: bold;
+  padding: 3px 0 0 2em;
+}
+#country {
+  width: 228px;
+}
+
+.required_star {
+  color: red;
+}
+.readonlyinput {
+  padding: 3px 0;
+}
+#order_form #row_total td,
+#order_form #row_cost_per_page td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#row_total td.label,
+#row_cost_per_page td.label {
+}
+#order_form ul li {
+  margin-left: 0;
+}
+
+#select-preferred-popup {
+  font-family: Arial;
+  width: 675px;
+  position: absolute;
+  border: black;
+  padding: 10px;
+}
+#select-preferred-popup .main {
+  padding: 15px 20px 10px 20px;
+  background: #e7e5d6;
+  width: auto !important;
+}
+#select-preferred-popup h2 {
+  font-size: 16px;
+  padding: 0;
+  background: none;
+  color: #962039;
+}
+#select-preferred-popup h4 {
+  color: #123456;
+  font-size: 12px;
+}
+#select-preferred-popup a,
+#select-preferred-popup a:link,
+#select-preferred-popup a:visited,
+#select-preferred-popup a:hover {
+  color: #000;
+}
+#select-preferred-popup label {
+  font-weight: bold;
+}
+#select-preferred-popup .min {
+  font-size: 10px;
+  color: #000;
+}
+#select-preferred-popup input {
+  background-color: #ffffff;
+  border: 1px solid #c9defe;
+  color: #17417b;
+  font: bold 12px Arial;
+}
+#select-preferred-popup a.select,
+#select-preferred-popup a:link.select,
+#select-preferred-popup a:visited.select,
+#select-preferred-popup a:hover.select {
+  display: block;
+  width: 100px;
+  height: 23px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  line-height: 23px;
+}
+#select-preferred-popup table td,
+#select-preferred-popup table th {
+  font-size: 12px;
+  padding: 5px;
+  color: #000;
+  vertical-align: middle;
+}
+#select-preferred-popup table th {
+  color: #123456;
+  font-size: 12px;
+  font-weight: bold;
+}
+#select-preferred-popup table .odd,
+#select-preferred-popup table th {
+  background: #f6f6ee;
+}
+#select-preferred-popup table tfoot {
+  text-align: center;
+}
+#select-preferred-popup .button {
+  width: 5em;
+}
+.select-preferred {
+  /*	position: relative;*/
+}
+#select-preferred-popup a.close,
+#select-preferred-popup a:link.close,
+#select-preferred-popup a:visited.close,
+#select-preferred-popup a:hover.close {
+  color: #8b8668;
+  text-decoration: underline;
+}
+
+#select-level-popup {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  padding: 3px;
+}
+#select-level-popup thead th {
+  background: #aeae8f;
+  color: #fff;
+  font: bold 13px Arial;
+  height: 36px;
+  padding: 0 1.5em;
+}
+#select-level-popup tbody th,
+#select-level-popup .close a,
+#select-level-popup .close a:link,
+#select-level-popup .close a:visited,
+#select-level-popup .close a:hover {
+  color: #000066;
+  font: bold 12px Arial;
+  padding-left: 1em;
+  text-align: left;
+  text-decoration: none;
+}
+#select-level-popup .main {
+  border: solid 2px #7a78c1;
+  background: #fff;
+  padding: 2px;
+}
+#select-level-popup td {
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+#select-level-popup table {
+  background: #f5f4ef;
+}
+#select-level-popup .odd td,
+#select-level-popup .odd th {
+  background: #e7e7d7;
+}
+#select-level-value {
+  font-weight: bold;
+  float: left;
+  padding-top: 3px;
+}
+#select-level-link,
+#select-level-submit,
+#select-level-popup a.submit {
+  float: left;
+  border: solid 1px #7a78c1;
+  background: #aaabc2;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1em;
+  padding: 2px 8px;
+}
+#select-level-link:hover,
+#select-level-submit:hover,
+#select-level-popup a.submit:hover {
+  background: #b8b9cf;
+}
+#select-level-popup .red {
+  color: red;
+}
+
+#select-level-popup .close {
+  text-align: right;
+}
+#select-level-popup .close a {
+  margin-right: 4px;
+}
+#select-level-popup tfoot td {
+  text-align: center;
+}
+
+#select-level-submit,
+#select-level-popup a.submit {
+  float: none;
+  width: 7em;
+  margin: auto;
+}
+
+#select-level-popup iframe {
+  display: none; /*sorry for IE5*/
+  display/**/: block; /*sorry for IE5*/
+  position: absolute; /*must have*/
+  top: 0; /*must have*/
+  left: -10px; /*must have*/
+  z-index: -1; /*must have*/
+  filter: mask(); /*must have*/
+  width: 520px;
+  height: 700px;
+}
+#prefwriter_urgency_attention {
+  color: red;
+}
+.showed {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+
+/* Styles for admin resubmit on resumes */
+
+.resumes-admin {
+  color: #006 !important;
+  padding: 0;
+}
+
+.resumes-admin .w100 {
+  padding: 0 !important;
+}
+
+.resumes-admin .required_star {
+  color: #f00;
+  font-weight: bold;
+}
+
+.resumes-admin .label-head,
+.resumes-admin .btab {
+  width: 100%;
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  background: #d6d7fa;
+}
+.resumes-admin .label-head label,
+.resumes-admin .btab label {
+  color: #5e5cb4 !important;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.resumes-admin .field_row,
+.resumes-admin .fr {
+  clear: left;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.resumes-admin .aR,
+.resumes-admin .fr label {
+  width: 200px !important;
+  float: left;
+  padding-left: 10px;
+  color: #006;
+  font-weight: normal;
+}
+
+.resumes-admin .fl {
+  float: left;
+}
+
+.resumes-admin .cb {
+  clear: left;
+}
+
+.resumes-admin .doctype_radiolist td {
+  height: 30px;
+  padding-top: 5px !important;
+  background: #f6f7ff;
+}
+
+.resumes-admin .doctype_radiolist td:first-child {
+  text-align: right !important;
+  width: 220px;
+}
+
+.resumes-admin .doctype_radiolist .name {
+  text-align: left !important;
+}
+
+.resumes-admin .doctype_radiolist .price {
+  text-align: left !important;
+  width: 200px;
+}
+
+.resumes-admin .tip {
+  border-bottom: 0 !important;
+}
+.resumes-admin .doctype_radiolist .odd td {
+  background: #e6e8f5 !important;
+}
+
+.resumes-admin .ototal {
+  padding: 0 15px;
+}
+
+.resumes-admin #input_deadline {
+  display: block;
+}
+
+#bubble-poppup {
+  width: 220px;
+  padding: 2px 0 0 10px;
+  position: relative !important;
+  height: 20px;
+}
+
+#order_form {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,100 @@
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(classes/vars.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(classes/vars.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(): Failed opening 'classes/vars.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(classes/sessions.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(classes/sessions.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:03 America/New_York] PHP Warning:  include(): Failed opening 'classes/sessions.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:03 America/New_York] PHP Notice:  Undefined variable: siteurl in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 6
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(classes/vars.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(classes/vars.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(): Failed opening 'classes/vars.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 3
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(classes/sessions.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(classes/sessions.php): failed to open stream: No such file or directory in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:07 America/New_York] PHP Warning:  include(): Failed opening 'classes/sessions.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 4
+[11-Jan-2019 06:30:07 America/New_York] PHP Notice:  Undefined variable: siteurl in /home/smaryxcu/universalessaywriters.com/order/order/index.php on line 6
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:55:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:56:06 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Data not accepted. in /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php:1060
+Stack trace:
+#0 /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php(881): PHPMailer->SmtpSend('Date: Sat, 3 Ap...', '--b1_787ddadd01...')
+#1 /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php(802): PHPMailer->PostSend()
+#2 /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php(15): PHPMailer->Send()
+#3 {main}
+  thrown in /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php on line 1060
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 07:57:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:00:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:21 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:21 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:21 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:21 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:22 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:01:42 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Data not accepted. in /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php:1060
+Stack trace:
+#0 /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php(881): PHPMailer->SmtpSend('Date: Sat, 3 Ap...', '--b1_0caae2beda...')
+#1 /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php(802): PHPMailer->PostSend()
+#2 /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php(16): PHPMailer->Send()
+#3 {main}
+  thrown in /home/bestessaywriters/bestessaywriters.com/order/class.phpmailer.php on line 1060
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 08:02:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bestessaywriters/bestessaywriters.com/order/SMTPconfig.php on line 4
+[03-Apr-2021 12:24:08 UTC] PHP Warning:  require(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 2
+[03-Apr-2021 12:24:08 UTC] PHP Fatal error:  require(): Failed opening required 'class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 2
+[03-Apr-2021 12:25:00 UTC] PHP Warning:  require(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:00 UTC] PHP Fatal error:  require(): Failed opening required 'class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:35 UTC] PHP Warning:  include(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:35 UTC] PHP Warning:  include(): Failed opening 'class.phpmailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:35 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:25:35 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:25:49 UTC] PHP Warning:  include(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:49 UTC] PHP Warning:  include(): Failed opening 'class.phpmailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:25:49 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:25:49 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:25:49 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 6
+[03-Apr-2021 12:26:22 UTC] PHP Warning:  include(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:22 UTC] PHP Warning:  include(): Failed opening 'class.phpmailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:22 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:22 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:22 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 6
+[03-Apr-2021 12:26:40 UTC] PHP Warning:  include(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:40 UTC] PHP Warning:  include(): Failed opening 'class.phpmailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:40 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:40 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:54 UTC] PHP Warning:  include(class.phpmailer.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:54 UTC] PHP Warning:  include(): Failed opening 'class.phpmailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 3
+[03-Apr-2021 12:26:54 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:54 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 4
+[03-Apr-2021 12:26:54 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bestessaywriters/bestessaywriters.com/order/order/testmail.php on line 6
